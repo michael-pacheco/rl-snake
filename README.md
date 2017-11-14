@@ -1,6 +1,6 @@
 <h2>
   A reinforcement learning agent that learns to play Snake through Deep Reinforcement Learning (DQN).
-  This version of Snake was created by <a href="http://www.pixelatedawesome.com/">Daniel Westbrook</a>, and can be found <a href="http://projects.pixelatedawesome.com/minisnake/">here</a>. The original game was modified to for a learning environment.
+  This version of Snake was created by <a href="http://www.pixelatedawesome.com/">Daniel Westbrook</a>, and can be found <a href="http://projects.pixelatedawesome.com/minisnake/">here</a>. The original game was modified into a better learning environment.
 </h2>
 
 <h2>Requirements: (Python 3x)</h2>
