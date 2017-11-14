@@ -1,0 +1,14 @@
+num_of_cols, num_of_rows = 32, 32
+num_of_hidden_layer_neurons = 256
+img_channels = 4
+batch_size = 32	#batch size for update in exp replay
+epsilon = 0.1
+observe = 2000	#start training after this timestep
+gamma = 0.9
+num_of_actions = 4
+action_array = [273, 274, 275, 276]	#actions possible: up down right left keycodes in pygame
+death_reward = -1 #at the moment the agent stays dead for two frames, so it will receive this reward twice
+reward_in_env = -0.1 #reward for living in the environment
+reward_on_eat = 5 #reward for eating
+timesteps_to_save_weights = 500	#saves weights at these iterations of timesteps
+exp_replay_memory = 50000 #length of exp replay deque before popping values
